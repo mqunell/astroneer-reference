@@ -8,7 +8,9 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
 	<html lang="en">
-		<body>{children}</body>
+		<body className="w-screen min-h-screen bg-auto bg-no-repeat bg-center bg-astroneer">
+			{children}
+		</body>
 	</html>
 );
 
