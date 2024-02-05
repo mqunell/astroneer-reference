@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
 	<html lang="en">
 		<body
-			className="min-h-screen w-screen bg-auto bg-center bg-no-repeat"
+			className="min-h-screen w-screen bg-cover bg-fixed bg-center bg-no-repeat"
 			style={{ backgroundImage: 'url(astroneer-background.webp)' }}
 		>
 			{children}
